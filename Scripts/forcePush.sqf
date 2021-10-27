@@ -1,0 +1,1 @@
+cursorObject setVelocity [200 * (vectorDir player select 0),200 * (vectorDir player select 1),15];
