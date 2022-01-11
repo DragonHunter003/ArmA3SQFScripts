@@ -38,5 +38,5 @@ _sign addAction["Spawn Kart",{
 /*
 Example Usage
 
-[this, vehicleSpawn_1] call compile preprocessFile "scripts\populateSign.sqf";
+[this, vehicleSpawn_1] call compile preprocessFile "scripts\populateVehicleSign.sqf";
 */
