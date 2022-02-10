@@ -20,5 +20,9 @@ switch(_crateContentType) do
 		_crate addItemCargoGlobal ["30Rnd_65x39_caseless_mag_tracer", 60];
 		_crate addItemCargoGlobal ["30Rnd_65x39_caseless_mag", 60];
 	};
+	case "ammo_rifle_cba":
+	{
+		_crate addItemCargoGlobal ["UK3CB_BAF_556_30Rnd_T", 60];
+	};
 	default {};
 };
