@@ -1,7 +1,8 @@
 _index = lbCurSel 1500;
 _spawnPosition = synchronizedObjects item_spawn_master select _index;
 _index = lbCurSel 1501;
-_crateContentType = lbText [1501, _index];
+_crateTypeIndex = _index;
+_factionIndex = lbCurSel 1502;
 
 //Check for vehicles in radius of spawnpoint
 private _nearVehicles = nearestObjects [getPos _spawnPosition, ["LandVehicle", "Air", "Ship", "Slingload_base_F"], 5];
@@ -27,5 +28,5 @@ if (count _nearVehicles > 0) then {
 	clearWeaponCargo _crate;
 	clearBackpackCargo _crate;
 	
-	[_crate, _crateContentType] call compile preprocessFile "scripts\fillAmmoCrate.sqf";
+	[_crate, _factionIndex ,_crateTypeIndex] call compile preprocessFile "scripts\fillAmmoCrate.sqf";
 }

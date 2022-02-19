@@ -1,28 +1,16 @@
-params["_crate","_crateContentType"];
+params["_crate","_factionIndex","_crateContentType"];
 
-switch(_crateContentType) do 
+_selectedFaction = call compile preprocessfile "scripts\getFactions.sqf";
+_selectedFaction = _selectedFaction select _factionIndex;
+
+_factionScriptPath = "scripts\factions\";
+_factionScriptPath = _factionScriptPath + _selectedFaction + ".sqf";
+
+_factionSupply = call compile preprocessfile _factionScriptPath;
+_factionSupply = _factionSupply select 1 select _crateContentType select 1;
+
 {
-	case "throwable_he_grenade": 
-	{
-		_crate addItemCargoGlobal ["HandGrenade", 60];
-	};
-	case "throwable_smoke_grenade":
-	{
-		_crate addItemCargoGlobal ["SmokeShell", 60];
-	};
-	case "throwable_smoke_grenade_coloured":
-	{
-		_crate addItemCargoGlobal ["SmokeShellGreen", 40];
-		_crate addItemCargoGlobal ["SmokeShellRed", 40];
-	};
-	case "ammo_rifle": 
-	{
-		_crate addItemCargoGlobal ["30Rnd_65x39_caseless_mag_tracer", 60];
-		_crate addItemCargoGlobal ["30Rnd_65x39_caseless_mag", 60];
-	};
-	case "ammo_rifle_cba":
-	{
-		_crate addItemCargoGlobal ["UK3CB_BAF_556_30Rnd_T", 60];
-	};
-	default {};
-};
+	_supplyType = _factionSupply select _forEachIndex select 0;
+	_supplyAmount = _factionSupply select _forEachIndex select 1;
+	_crate addItemCargoGlobal [_supplyType,_supplyAmount];
+}forEach _factionSupply;

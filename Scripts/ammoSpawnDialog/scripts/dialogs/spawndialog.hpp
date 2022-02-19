@@ -52,6 +52,16 @@ class dialog_supply_spawn
 			w = safeZoneW * 0.095;
 			h = safeZoneH * 0.27444445;
 		};
+		class dim_supply_faction_list: RscListbox
+		{
+			idc = 1502;
+			x = safeZoneX + safeZoneW * 0.34277344;
+			y = safeZoneY + safeZoneH * 0.37152778;
+			w = safeZoneW * 0.09472657;
+			h = safeZoneH * 0.27430556;	
+			onLBSelChanged = "lbCurSel 1502 call compile preprocessfile 'scripts\refreshFactionList.sqf'";
+		};
+		
 		class dim_supply_spawn_button: RscButton
 		{
 			idc = 1600;
