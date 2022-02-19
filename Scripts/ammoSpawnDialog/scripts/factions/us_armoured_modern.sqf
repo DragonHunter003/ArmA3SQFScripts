@@ -37,47 +37,47 @@ _resupplyAvailable = [
 			["rhs_mag_smaw_HEAA",6]
 		]
 	],
-	["Hand Grenade Resupply",
+	["Hand Grenades",
 		[
 			["HandGrenade",40]
 		]
 	],
-	["Smoke Grenade Resupply",
+	["Smoke Grenades",
 		[
 			["rhs_mag_an_m8hc",40]
 		]
 	],
-	["Coloured Smoke Grenade Resupply",
+	["Coloured Smoke Grenades",
 		[
 			["SmokeShellRed",30],
 			["SmokeShellGreen",30],
 			["SmokeShellBlue",30]
 		]
 	],
-	["40mm Grenade Resupply",
+	["40mm Grenades",
 		[
 			["1Rnd_HE_Grenade_Shell",40]
 		]
 	],
-	["40mm Smoke Round Resupply",
+	["40mm Smoke Rounds",
 		[
 			["1Rnd_Smoke_Grenade_Shell",40]
 		]
 	],
-	["40mm Coloured Smoke Round Resupply",
+	["40mm Coloured Smoke Rounds",
 		[
 			["1Rnd_SmokeRed_Grenade_Shell",20],
 			["1Rnd_SmokeGreen_Grenade_Shell",20],
 			["1Rnd_SmokeBlue_Grenade_Shell",20]
 		]
 	],
-	["40mm Flares Resupply",
+	["40mm Flares",
 		[
 			["UGL_FlareWhite_F",30],
 			["UGL_FlareCIR_F",30]
 		]
 	],	
-	["Explosives Resupply",
+	["Explosives",
 		[
 			["DemoCharge_Remote_Mag",20],
 			["SatchelCharge_Remote_Mag",10],
@@ -89,32 +89,38 @@ _resupplyAvailable = [
 			["ACE_Clacker",10],
 			["ACE_M26_Clacker",10]
 		]
+	],
+	["Blood IVs",
+		[
+			["ACE_bloodIV", 25],
+			["ACE_bloodIV_500", 25],
+			["ACE_bloodIV_250", 25]
+		]
+	],
+	["Bandages",
+		[
+			["ACE_fieldDressing", 50],
+			["ACE_elasticBandage", 50],
+			["ACE_packingBandage", 50],
+			["ACE_quickclot", 50]
+		]
+	],
+	["Autoinjectors",
+		[
+			["ACE_epinephrine", 25],
+			["ACE_morphine", 25],
+			["ACE_adenosine", 25]
+		]
+	],
+	["Misc. Medical Supplies",
+		[
+			["ACE_tourniquet", 20],
+			["ACE_splint", 20],
+			["ACE_bodyBag", 12]
+		]
 	]
 	
 ];
 
 _factionFull = [_factionName,_resupplyAvailable];
 _factionFull
-
-/* ScriptTest Area
-
- phxFaction = call compile preprocessfile "scripts\factions\us_armoured_modern.sqf";
- 
- clearItemCargo cursorObject; 
- clearMagazineCargo cursorObject; 
- clearWeaponCargo cursorObject; 
- clearBackpackCargo cursorObject; 
- _index = 0; 
-  
- { 
- cursorObject addItemCargoGlobal [phxFaction select 1 select _index select 1 select _forEachIndex select 0,phxFaction select 1 select _index select 1 select _forEachIndex select 1] 
- 
- } forEach phxFaction select 1 select _index select 1
- 
-["",
-	[
-		["",]
-	]
-]
-
-*/
