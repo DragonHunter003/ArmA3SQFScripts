@@ -1,11 +1,6 @@
 params["_selectedFactionID"];
+//This script returns name of selected faction used to fill faction name instead of internal name in the Faction list.
+_factionStuff = [_selectedFactionID] call compile preprocessfile "scripts\selectFaction.sqf";
 
-_selectedFaction = call compile preprocessfile "scripts\getFactions.sqf";
-_selectedFaction = _selectedFaction select _selectedFactionID;
-
-_factionScriptPath = "scripts\factions\";
-_factionScriptPath = _factionScriptPath + _selectedFaction + ".sqf";
-
-_factionNameVal = call compile preprocessfile _factionScriptPath;
-_factionNameVal = _factionNameVal select 0;
+_factionNameVal = _factionStuff select 0;
 _factionNameVal

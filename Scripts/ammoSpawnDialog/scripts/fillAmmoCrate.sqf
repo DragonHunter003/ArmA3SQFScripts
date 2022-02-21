@@ -1,13 +1,8 @@
 params["_crate","_factionIndex","_crateContentType"];
+//This script grabs selected faction and resupply type and adds them to a crate spawned by "scripts\spawnCrate.sqf".
+_factionStuff = [_factionIndex] call compile preprocessfile "scripts\selectFaction.sqf";
 
-_selectedFaction = call compile preprocessfile "scripts\getFactions.sqf";
-_selectedFaction = _selectedFaction select _factionIndex;
-
-_factionScriptPath = "scripts\factions\";
-_factionScriptPath = _factionScriptPath + _selectedFaction + ".sqf";
-
-_factionSupply = call compile preprocessfile _factionScriptPath;
-_factionSupply = _factionSupply select 1 select _crateContentType select 1;
+_factionSupply = _factionStuff select 1 select _crateContentType select 1;
 
 {
 	_supplyType = _factionSupply select _forEachIndex select 0;

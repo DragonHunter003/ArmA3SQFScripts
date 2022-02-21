@@ -2,23 +2,23 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "US Armoured (Modern)";
+_factionName = "Serbian Brigade";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",40],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",40]
+			["rhsgref_30Rnd_556x45_m21",40],
+			["rhsgref_30Rnd_556x45_m21_t",40]
 		]
 	],
 	["DMR Resupply",
 		[
-			["rhsusf_20Rnd_762x51_m62_Mag",15],
-			["rhsusf_20Rnd_762x51_m993_Mag",15]
+			["rhsgref_10Rnd_792x57_m76",15],
+			["rhsgref_10Rnd_792x57_m76_tracer",15]
 		]
 	],
 	["LMG Resupply",
 		[
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",20]
+			["rhs_100Rnd_762x54mmR_green",20]
 		]
 	],
 	["Shotgun Resupply",
@@ -29,7 +29,7 @@ _resupplyAvailable = [
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M136",8]
+			["rhs_weap_M80",8]
 		]
 	],
 	["MAT Resupply",
@@ -41,34 +41,28 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["HandGrenade",40]
+			["rhssaf_mag_br_m84",40]
 		]
 	],
 	["Smoke Grenades",
 		[
-			["rhs_mag_an_m8hc",40],
-			["SmokeShellRed",30],
-			["SmokeShellGreen",30],
-			["SmokeShellBlue",30]
+			["rhssaf_mag_brd_m83_white",40],
+			["rhssaf_mag_brd_m83_red",30],
+			["rhssaf_mag_brd_m83_green",30],
+			["rhssaf_mag_brd_m83_blue",30]
 		]
 	],
 	["40mm Grenades",
 		[
-			["1Rnd_HE_Grenade_Shell",40]
+			["rhs_VOG25",40]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-			["1Rnd_Smoke_Grenade_Shell",40],
-			["1Rnd_SmokeRed_Grenade_Shell",20],
-			["1Rnd_SmokeGreen_Grenade_Shell",20],
-			["1Rnd_SmokeBlue_Grenade_Shell",20]
-		]
-	],
-	["40mm Flares",
-		[
-			["UGL_FlareWhite_F",30],
-			["UGL_FlareCIR_F",30]
+			["rhs_VG40OP_white",40],
+			["rhs_VG40OP_red",20],
+			["rhs_VG40OP_green",20],
+			["hlc_GRD_purple",20]
 		]
 	],	
 	["Explosives",
@@ -104,8 +98,8 @@ _resupplyAvailable = [
 		[
 			["ACE_tourniquet", 20],
 			["ACE_splint", 20],
-			["ACE_bodyBag", 20],
-			["ACE_surgicalKit", 2]
+			["ACE_bodyBag", 12],
+			["ACE_surgicalKit",2]
 		]
 	],
 	["Detonators",

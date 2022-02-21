@@ -29,4 +29,5 @@ if (count _nearVehicles > 0) then {
 	clearBackpackCargo _crate;
 	
 	[_crate, _factionIndex ,_crateTypeIndex] call compile preprocessFile "scripts\fillAmmoCrate.sqf";
+	[_crate, 2] call ace_cargo_fnc_setSpace;
 }

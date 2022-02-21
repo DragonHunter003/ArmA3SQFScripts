@@ -1,12 +1,7 @@
 params["_selectedFactionID"];
+//This scripts grabs the selected faction in the faction list and adds the available supplies of that faction to the 2nd listbox.
 
-_selectedFaction = call compile preprocessfile "scripts\getFactions.sqf";
-_selectedFaction = _selectedFaction select _selectedFactionID;
-
-_factionScriptPath = "scripts\factions\";
-_factionScriptPath = _factionScriptPath + _selectedFaction + ".sqf";
-
-_factionStuff = call compile preprocessfile _factionScriptPath;
+_factionStuff = [_selectedFactionID] call compile preprocessfile "scripts\selectFaction.sqf";
 _availableSupplies = _factionStuff select 1;
 
 lbClear 1501;
