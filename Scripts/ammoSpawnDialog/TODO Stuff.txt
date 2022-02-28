@@ -1,0 +1,13 @@
+Add vehicle GUI
+Make sure identifiers don't conflict for the different GUIs
+
+[
+	/* primary weapon */	["arifle_MXC_Holo_pointer_F", "", "acc_pointer_IR", "optic_Holosight", ["30Rnd_65x39_caseless_mag", 30], [], ""],
+	/* secondary weapon */	["launch_B_Titan_short_F", "", "", "", ["Titan_AT", 1], [], ""],
+	/* handgun weapon */	["hgun_P07_F", "", "", "", ["16Rnd_9x21_Mag", 16], [], ""],
+	/* uniform */			["U_B_CombatUniform_mcam", [["FirstAidKit", 1], ["30Rnd_65x39_caseless_mag", 2, 30], ["Chemlight_green", 1, 1]]],
+	/* vest */				["V_PlateCarrier1_rgr", [["30Rnd_65x39_caseless_mag", 3, 30], ["16Rnd_9x21_Mag", 2, 16], ["SmokeShell", 1 ,1], ["SmokeShellGreen", 1, 1], ["Chemlight_green", 1, 1]]],
+	/* backpack */			["B_AssaultPack_mcamo_AT",[["Titan_AT", 2, 1]]],
+	/* items */				"H_HelmetB_light_desert", "G_Bandanna_tan",[],
+	/* items */				["ItemMap","","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]
+]

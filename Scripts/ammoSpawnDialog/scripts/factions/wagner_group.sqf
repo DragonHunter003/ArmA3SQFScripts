@@ -2,76 +2,68 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "US Armoured (Modern)";
+_factionName = "Wagner Group";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",40],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",40]
+			["hlc_30Rnd_545x39_EP_ak",40],
+			["hlc_30rnd_545x39_t_ak",40]
 		]
 	],
 	["DMR/LMG Resupply",
 		[
-			["rhsusf_20Rnd_762x51_m62_Mag",15],
-			["rhsusf_20Rnd_762x51_m993_Mag",15],
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",20]
+			["rhs_10Rnd_762x54mmR_7N14",20],
+			["hlc_60Rnd_545x39_t_ak",30]
 		]
 	],
 	["Shotgun Resupply",
 		[
-			["UK3CB_BAF_12G_Pellets",15],
-			["UK3CB_BAF_12G_Slugs",15]
+			["hlc_10Rnd_12g_slug_S12",20],
+			["hlc_10Rnd_12g_buck_S12",20]
 		]
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M136",8]
+			["rhs_weap_rpg75",9]
 		]
 	],
 	["MAT Resupply",
 		[
-			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEDP",6],
-			["rhs_mag_smaw_HEAA",6]
+			["rhs_rpg7_OG7V_mag",5],
+			["rhs_rpg7_PG7V_mag",5]
 		]
 	],
 	["Hand Grenades",
 		[
-			["HandGrenade",40]
+			["rhssaf_mag_br_m84",40]
 		]
 	],
 	["Smoke Grenades",
 		[
-			["rhs_mag_an_m8hc",40],
-			["SmokeShellRed",30],
-			["SmokeShellGreen",30],
-			["SmokeShellBlue",30]
+			["rhs_mag_rdg2_white",15],
+			["rhssaf_mag_brd_m83_red",10],
+			["rhssaf_mag_brd_m83_green",10],
+			["rhssaf_mag_brd_m83_blue",10]
 		]
 	],
 	["40mm Grenades",
 		[
-			["1Rnd_HE_Grenade_Shell",40]
+			["rhs_VOG25",20]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-			["1Rnd_Smoke_Grenade_Shell",40],
-			["1Rnd_SmokeRed_Grenade_Shell",20],
-			["1Rnd_SmokeGreen_Grenade_Shell",20],
-			["1Rnd_SmokeBlue_Grenade_Shell",20]
-		]
-	],
-	["40mm Flares",
-		[
-			["UGL_FlareWhite_F",30],
-			["UGL_FlareCIR_F",30]
+			["rhs_VG40OP_white",15],
+			["rhs_VG40OP_red",10],
+			["rhs_VG40OP_green",10],
+			["hlc_GRD_purple",10]
 		]
 	],	
 	["Explosives",
 		[
-			["DemoCharge_Remote_Mag",20],
-			["SatchelCharge_Remote_Mag",10],
-			["ClaymoreDirectionalMine_Remote_Mag",20]
+			["DemoCharge_Remote_Mag",10],
+			["SatchelCharge_Remote_Mag",8],
+			["ClaymoreDirectionalMine_Remote_Mag",8]
 		]
 	],
 	["Blood IVs",

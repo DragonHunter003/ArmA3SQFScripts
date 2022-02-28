@@ -10,14 +10,10 @@ _resupplyAvailable = [
 			["rhsgref_30Rnd_556x45_m21_t",40]
 		]
 	],
-	["DMR Resupply",
+	["DMR/LMG Resupply",
 		[
 			["rhsgref_10Rnd_792x57_m76",15],
-			["rhsgref_10Rnd_792x57_m76_tracer",15]
-		]
-	],
-	["LMG Resupply",
-		[
+			["rhsgref_10Rnd_792x57_m76_tracer",15],
 			["rhs_100Rnd_762x54mmR_green",20]
 		]
 	],
