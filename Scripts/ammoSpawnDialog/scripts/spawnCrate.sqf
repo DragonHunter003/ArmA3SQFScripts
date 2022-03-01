@@ -30,4 +30,5 @@ if (count _nearVehicles > 0) then {
 	
 	[_crate, _factionIndex ,_crateTypeIndex] call compile preprocessFile "scripts\fillAmmoCrate.sqf";
 	[_crate, 2] call ace_cargo_fnc_setSpace;
+	[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 }

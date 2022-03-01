@@ -1,6 +1,6 @@
 class dialog_supply_spawn
 {
-	idd = 1922
+	idd = 1922;
 	class controls
 	{
 		////////////////////////////////////////////////////////

@@ -23,7 +23,7 @@ _resupplyAvailable = [
 	],
 	["MAT Resupply",
 		[
-			["MRWAS_HEAT_F",10],
+			["MRWAS_HEAT_F",10]
 		]
 	],
 	["Hand Grenades",
