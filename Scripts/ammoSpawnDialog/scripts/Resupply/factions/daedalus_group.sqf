@@ -2,72 +2,77 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "Serbian Brigade";
+_factionName = "Daudalus Group";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhsgref_30Rnd_556x45_m21",40],
-			["rhsgref_30Rnd_556x45_m21_t",40]
+			["hlc_20rnd_762x51_b_G3",35],
+			["hlc_20rnd_762x51_T_G3",35]
 		]
 	],
 	["AR Resupply",
 		[
-			["rhs_100Rnd_762x54mmR_green",18]
+			["hlc_200rnd_556x45_B_SAW",10],
+			["hlc_200rnd_556x45_T_SAW",10]
 		]
 	],
 	["MMG Resupply",
 		[
-			["rhs_100Rnd_762x54mmR_green",18]
+			["rhsusf_100Rnd_762x51_m61_ap",10],
+			["rhsusf_100Rnd_762x51_m62_tracer",10],
+			["rhsusf_100Rnd_762x51_m80a1epr",10]
 		]
 	],
 	["DMR Resupply",
 		[
-			["rhsgref_10Rnd_792x57_m76",15],
-			["rhsgref_10Rnd_792x57_m76_tracer",15]
+			["hlc_20rnd_762x51_barrier_G3",20]
 		]
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M80",8]
+			["rhs_weap_M136",8]
 		]
 	],
-	["MAT (HEDP)",
+	["MAT (HE)",
 		[
-			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEDP",8]
+			["rhs_mag_maaws_HE",10]
 		]
 	],
-	["MAT (HEAA)",
+	["MAT (HEAT)",
 		[
-			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEAA",8]
+			["rhs_mag_maaws_HEAT",10]
 		]
 	],
 	["Hand Grenades",
 		[
-			["rhssaf_mag_br_m84",30]
+			["HandGrenade",30]
 		]
 	],
 	["Smoke Grenades",
 		[
-			["hlc_GRD_White",20],
-			["hlc_GRD_Red",10],
-			["hlc_GRD_green",10],
-			["hlc_GRD_blue",10],
-			["hlc_GRD_purple",10]
+			["rhs_mag_an_m8hc",20],
+			["SmokeShellRed",5],
+			["SmokeShellGreen",5],
+			["SmokeShellBlue",5]
 		]
 	],
 	["40mm Grenades",
 		[
-			["rhs_VOG25",25]
+			["1Rnd_HE_Grenade_Shell",30]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-			["rhs_VG40OP_white",15],
-			["rhs_VG40OP_red",10],
-			["rhs_VG40OP_green",10]
-			
+			["1Rnd_Smoke_Grenade_Shell",20],
+			["1Rnd_SmokeRed_Grenade_Shell",10],
+			["1Rnd_SmokeGreen_Grenade_Shell",10],
+			["1Rnd_SmokeBlue_Grenade_Shell",10]
+		]
+	],
+	["40mm Flares",
+		[
+			["UGL_FlareWhite_F",20],
+			["UGL_FlareCIR_F",20]
 		]
 	],	
 	["Explosives",
@@ -103,20 +108,21 @@ _resupplyAvailable = [
 		[
 			["ACE_tourniquet", 20],
 			["ACE_splint", 20],
-			["ACE_bodyBag", 12],
-			["ACE_surgicalKit",2]
+			["ACE_bodyBag", 20],
+			["ACE_surgicalKit", 2]
 		]
 	],
 	["Squad Resupply",
 		[
-			["rhsgref_30Rnd_556x45_m21",20],
-			["rhsgref_30Rnd_556x45_m21_t",20],
-			["rhs_100Rnd_762x54mmR_green",10],
-			["rhs_weap_M80",4],
-			["rhssaf_mag_br_m84",15],	
-			["hlc_GRD_White",10],
-			["rhs_VOG25",15],
-			["rhs_VG40OP_white",10],
+			["hlc_20rnd_762x51_b_G3",35],
+			["hlc_20rnd_762x51_T_G3",35],
+			["hlc_200rnd_556x45_B_SAW",10],
+			["hlc_200rnd_556x45_T_SAW",10],
+			["rhs_weap_M136",8],
+			["HandGrenade",15],
+			["rhs_mag_an_m8hc",10],
+			["1Rnd_HE_Grenade_Shell",15],
+			["1Rnd_Smoke_Grenade_Shell",10],
 			["ACE_bloodIV", 10],
 			["ACE_elasticBandage", 30],
 			["ACE_quickclot", 30]

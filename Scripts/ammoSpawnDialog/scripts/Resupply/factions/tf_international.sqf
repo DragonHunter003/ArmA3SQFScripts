@@ -114,6 +114,22 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["Squad Resupply",
+		[
+		
+			["hlc_30Rnd_545x39_EP_ak",20],
+			["hlc_30rnd_545x39_t_ak",20],
+			["hlc_60Rnd_545x39_t_rpk",20],
+			["rhs_weap_rpg75",4],
+			["rhssaf_mag_br_m84",10],
+			["rhs_mag_rdg2_white",15],
+			["hlc_VOG25_25",10],
+			["rhs_VG40OP_white",15],
+			["ACE_bloodIV", 10],
+			["ACE_elasticBandage", 30],
+			["ACE_quickclot", 30]
+		]
+	],
 	["Detonators",
 		[
 			["ACE_Clacker",10],
