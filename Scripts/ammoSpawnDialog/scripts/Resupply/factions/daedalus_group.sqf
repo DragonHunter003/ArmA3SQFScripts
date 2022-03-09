@@ -2,7 +2,7 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "Daudalus Group";
+_factionName = "Daedalus Group";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
