@@ -10,17 +10,20 @@ _resupplyAvailable = [
 			["rhsgref_30Rnd_556x45_m21_t",40]
 		]
 	],
-	["DMR/LMG Resupply",
+	["AR Resupply",
 		[
-			["rhsgref_10Rnd_792x57_m76",15],
-			["rhsgref_10Rnd_792x57_m76_tracer",15],
-			["rhs_100Rnd_762x54mmR_green",20]
+			["rhs_100Rnd_762x54mmR_green",18]
 		]
 	],
-	["Shotgun Resupply",
+	["MMG Resupply",
 		[
-			["UK3CB_BAF_12G_Pellets",15],
-			["UK3CB_BAF_12G_Slugs",15]
+			["rhs_100Rnd_762x54mmR_green",18]
+		]
+	],
+	["DMR Resupply",
+		[
+			["rhsgref_10Rnd_792x57_m76",15],
+			["rhsgref_10Rnd_792x57_m76_tracer",15]
 		]
 	],
 	["LAT Resupply",
@@ -28,44 +31,50 @@ _resupplyAvailable = [
 			["rhs_weap_M80",8]
 		]
 	],
-	["MAT Resupply",
+	["MAT (HEDP)",
 		[
 			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEDP",6],
-			["rhs_mag_smaw_HEAA",6]
+			["rhs_mag_smaw_HEDP",8]
+		]
+	],
+	["MAT (HEAA)",
+		[
+			["rhs_mag_smaw_SR",2],
+			["rhs_mag_smaw_HEAA",8]
 		]
 	],
 	["Hand Grenades",
 		[
-			["rhssaf_mag_br_m84",40]
+			["rhssaf_mag_br_m84",30]
 		]
 	],
 	["Smoke Grenades",
 		[
-			["rhssaf_mag_brd_m83_white",40],
-			["rhssaf_mag_brd_m83_red",30],
-			["rhssaf_mag_brd_m83_green",30],
-			["rhssaf_mag_brd_m83_blue",30]
+			["hlc_GRD_White",20],
+			["hlc_GRD_Red",10],
+			["hlc_GRD_green",10],
+			["hlc_GRD_blue",10],
+			["hlc_GRD_purple",10]
 		]
 	],
 	["40mm Grenades",
 		[
-			["rhs_VOG25",40]
+			["rhs_VOG25",25]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-			["rhs_VG40OP_white",40],
-			["rhs_VG40OP_red",20],
-			["rhs_VG40OP_green",20],
-			["hlc_GRD_purple",20]
+			["rhs_VG40OP_white",15],
+			["rhs_VG40OP_red",10],
+			["rhs_VG40OP_green",10]
+			
 		]
 	],	
 	["Explosives",
 		[
-			["DemoCharge_Remote_Mag",20],
-			["SatchelCharge_Remote_Mag",10],
-			["ClaymoreDirectionalMine_Remote_Mag",20]
+			["DemoCharge_Remote_Mag",10],
+			["SatchelCharge_Remote_Mag",8],
+			["ClaymoreDirectionalMine_Remote_Mag",8]
 		]
 	],
 	["Blood IVs",

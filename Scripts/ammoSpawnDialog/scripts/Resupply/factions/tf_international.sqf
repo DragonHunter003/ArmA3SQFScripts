@@ -2,67 +2,79 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "Hellenic Armed Forces";
+_factionName = "Task Force International";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["hlc_20rnd_762x51_b_G3",40],
-			["hlc_20rnd_762x51_MDim_G3",40]
+			["hlc_30Rnd_545x39_EP_ak",40],
+			["hlc_30rnd_545x39_t_ak",40]
 		]
 	],
-	["DMR/LMG Resupply",
+	["AR Resupply",
 		[
-			["hlc_20rnd_762x51_barrier_G3",20],
-			["hlc_100Rnd_762x51_B_MG3",20]
+			["hlc_60Rnd_545x39_t_rpk",40]
 		]
 	],
-	["Shotgun Resupply",
+	["MMG Resupply",
 		[
-			["UK3CB_BAF_12G_Pellets",15],
-			["UK3CB_BAF_12G_Slugs",15]
+			["rhs_100Rnd_762x54mmR_green",18]
+		]
+	],
+	["DMR Resupply",
+		[
+			["rhs_10Rnd_762x54mmR_7N14",30]
 		]
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M136",8]
+			["rhs_weap_rpg75",9]
 		]
 	],
-	["MAT Resupply",
+	["MAT OG-7V (HE Frag)",
 		[
-			["rhs_mag_maaws_HE",5],
-			["rhs_mag_maaws_HEAT",5]
+			["rhs_rpg7_OG7V_mag",10]
+		]
+	],
+	["MAT PG-7V (HEAT)",
+		[
+			["rhs_rpg7_PG7V_mag",10]
+		]
+	],
+	["MAT PG-7VR (HEAT Tandem)",
+		[
+			["rhs_rpg7_PG7VR_mag",10]
+		]
+	],
+	["MAT TBG-7V (Thermobaric)",
+		[
+			["rhs_rpg7_TBG7V_mag",10]
 		]
 	],
 	["Hand Grenades",
 		[
-			["HandGrenade",30]
+			["rhssaf_mag_br_m84",20]
 		]
 	],
 	["Smoke Grenades",
 		[
-			["rhs_mag_an_m8hc",20],
-			["SmokeShellRed",5],
-			["SmokeShellGreen",5],
-			["SmokeShellBlue",5]
+			["rhs_mag_rdg2_white",15],
+			["rhssaf_mag_brd_m83_red",10],
+			["rhssaf_mag_brd_m83_green",10],
+			["rhssaf_mag_brd_m83_blue",10],
+			["hlc_GRD_purple",10]
 		]
 	],
 	["40mm Grenades",
 		[
-			["1Rnd_HE_Grenade_Shell",30]
+			["hlc_VOG25_25",20]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-			["1Rnd_Smoke_Grenade_Shell",20],
-			["1Rnd_SmokeRed_Grenade_Shell",10],
-			["1Rnd_SmokeGreen_Grenade_Shell",10],
-			["1Rnd_SmokeBlue_Grenade_Shell",10]
-		]
-	],
-	["40mm Flares",
-		[
-			["UGL_FlareWhite_F",20],
-			["UGL_FlareCIR_F",20]
+			["rhs_VG40OP_white",15],
+			["rhs_VG40OP_red",10],
+			["rhs_VG40OP_green",10],
+			["hlc_GRD_purple",10]
 		]
 	],	
 	["Explosives",
