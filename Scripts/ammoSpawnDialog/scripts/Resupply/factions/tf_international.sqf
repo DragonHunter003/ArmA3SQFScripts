@@ -81,7 +81,7 @@ _resupplyAvailable = [
 		[
 			["rhs_VG40OP_white",15],
 			["rhs_VG40OP_red",10],
-			["rhs_VG40OP_green",10],
+			["rhs_VG40OP_green",10]
 		]
 	],
 	["Explosives",

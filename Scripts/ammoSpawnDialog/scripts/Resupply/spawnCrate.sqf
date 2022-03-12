@@ -19,7 +19,7 @@ if (count _nearVehicles > 0) then {
 	forEach _nearVehicles;
 	
 } else {
-	private _crate = createVehicle["Box_NATO_Ammo_F", getPos _spawnPosition, [], 0, "CAN_COLLIDE"];
+	private _crate = createVehicle["Box_NATO_Ammo_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 	_crate setDir getDir _spawnPosition;
 	
 	//Remove default contents from crate
