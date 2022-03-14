@@ -23,12 +23,12 @@ if (count _nearVehicles > 0) then {
 	_crate setDir getDir _spawnPosition;
 	
 	//Remove default contents from crate
-	clearItemCargo _crate;
-	clearMagazineCargo _crate;
-	clearWeaponCargo _crate;
-	clearBackpackCargo _crate;
+	clearItemCargoGlobal _crate;
+	clearMagazineCargoGlobal _crate;
+	clearWeaponCargoGlobal _crate;
+	clearBackpackCargoGlobal _crate;
 	
 	[_crate, _factionIndex ,_crateTypeIndex] call compile preprocessFile "scripts\Resupply\fillAmmoCrate.sqf";
-	[_crate, 1] call ace_cargo_fnc_setSpace;
+	[_crate, 1] call ace_cargo_fnc_setSize;
 	[_crate, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
 }
