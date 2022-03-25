@@ -1,6 +1,6 @@
-class dialog_supply_spawn
+class dialog_motorpool
 {
-	idd = 451922;
+	idd = 461922;
 	class controls
 	{
 		////////////////////////////////////////////////////////
@@ -22,7 +22,7 @@ class dialog_supply_spawn
 		{
 			idc = -1;
 
-			text = "Supply Spawn"; //--- ToDo: Localize;
+			text = "Vehicle Spawn"; //--- ToDo: Localize;
 			x = 0.29375 * safezoneW + safezoneX;
 			y = 0.225 * safezoneH + safezoneY;
 			w = 0.4125 * safezoneW;
@@ -32,9 +32,9 @@ class dialog_supply_spawn
 			sizeEx = 1 * GUI_GRID_H;
 		};
 		
-		class dim_supply_spawnpoint_list: RscListBox
+		class dim_vehicle_spawnpoint_list: RscListBox
 		{
-			idc = 451500;
+			idc = 461500;
 
 			x = 0.586934 * safezoneW + safezoneX;
 			y = 0.37152 * safezoneH + safezoneY;
@@ -42,9 +42,9 @@ class dialog_supply_spawn
 			h = 0.274305 * safezoneH;
 		};
 		
-		class dim_supply_cratecontent_list: RscListBox
+		class dim_vehicle_list: RscListBox
 		{
-			idc = 451501;
+			idc = 461501;
 
 			x = 0.461844 * safezoneW + safezoneX;
 			y = 0.37108 * safezoneH + safezoneY;
@@ -52,10 +52,10 @@ class dialog_supply_spawn
 			h = 0.274443 * safezoneH;
 		};
 		
-		class dim_supply_faction_list: RscListBox
+		class dim_vehicle_faction_list: RscListBox
 		{
-			idc = 451502;
-			onLBSelChanged = "lbCurSel 451502 call compile preprocessfile 'scripts\Resupply\refreshFactionSupplyList.sqf'";
+			idc = 461502;
+			onLBSelChanged = "lbCurSel 461502 call compile preprocessfile 'scripts\Motorpool\refreshFactionVehicleList.sqf'";
 
 			x = 0.342734 * safezoneW + safezoneX;
 			y = 0.37152 * safezoneH + safezoneY;
@@ -63,10 +63,10 @@ class dialog_supply_spawn
 			h = 0.274305 * safezoneH;
 		};
 		
-		class dim_supply_spawn_button: RscButton
+		class dim_vehicle_spawn_button: RscButton
 		{
-			idc = 451600;
-			action = "execVM 'scripts\Resupply\spawnCrate.sqf'";
+			idc = 461600;
+			action = "execVM 'scripts\Motorpool\spawnVehicle.sqf'";
 
 			text = "Spawn Box"; //--- ToDo: Localize;
 			x = 0.611375 * safezoneW + safezoneX;

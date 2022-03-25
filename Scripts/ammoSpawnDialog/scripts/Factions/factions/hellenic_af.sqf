@@ -132,6 +132,6 @@ _resupplyAvailable = [
 	]
 	
 ];
-
-_factionFull = [_factionName,_resupplyAvailable];
+_vehiclesAvailable = [];
+_factionFull = [_factionName,_resupplyAvailable,_vehiclesAvailable];
 _factionFull

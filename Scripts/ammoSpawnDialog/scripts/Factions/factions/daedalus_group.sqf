@@ -2,17 +2,18 @@
 //resupplyAvailable = [["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]],["name",[["resupplyID",resupplyAmount],["resupplyID",resupplyAmount]]]];
 //TODO: Add vehicles available to the faction.
 
-_factionName = "US Armoured (Modern)";
+_factionName = "Daedalus Group";
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",40],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",40]
+			["hlc_20rnd_762x51_b_G3",35],
+			["hlc_20rnd_762x51_T_G3",35]
 		]
 	],
 	["AR Resupply",
 		[
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",30]
+			["hlc_200rnd_556x45_B_SAW",10],
+			["hlc_200rnd_556x45_T_SAW",10]
 		]
 	],
 	["MMG Resupply",
@@ -24,8 +25,7 @@ _resupplyAvailable = [
 	],
 	["DMR Resupply",
 		[
-			["rhsusf_20Rnd_762x51_m62_Mag",15],
-			["rhsusf_20Rnd_762x51_m993_Mag",15]
+			["hlc_20rnd_762x51_barrier_G3",20]
 		]
 	],
 	["LAT Resupply",
@@ -33,16 +33,14 @@ _resupplyAvailable = [
 			["rhs_weap_M136",8]
 		]
 	],
-	["MAT (HEDP)",
+	["MAT (HE)",
 		[
-			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEDP",8]
+			["rhs_mag_maaws_HE",10]
 		]
 	],
-	["MAT (HEAA)",
+	["MAT (HEAT)",
 		[
-			["rhs_mag_smaw_SR",2],
-			["rhs_mag_smaw_HEAA",8]
+			["rhs_mag_maaws_HEAT",10]
 		]
 	],
 	["Hand Grenades",
@@ -73,7 +71,7 @@ _resupplyAvailable = [
 	],
 	["40mm Flares",
 		[
-			["UGL_FlareWhite_F",30],
+			["UGL_FlareWhite_F",20],
 			["UGL_FlareCIR_F",20]
 		]
 	],	
@@ -116,9 +114,10 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",20],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",20],
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",15],
+			["hlc_20rnd_762x51_b_G3",20],
+			["hlc_20rnd_762x51_T_G3",20],
+			["hlc_200rnd_556x45_B_SAW",5],
+			["hlc_200rnd_556x45_T_SAW",5],
 			["rhs_weap_M136",4],
 			["HandGrenade",15],
 			["rhs_mag_an_m8hc",10],
@@ -137,6 +136,6 @@ _resupplyAvailable = [
 	]
 	
 ];
-
-_factionFull = [_factionName,_resupplyAvailable];
+_vehiclesAvailable = [];
+_factionFull = [_factionName,_resupplyAvailable,_vehiclesAvailable];
 _factionFull
