@@ -1,5 +1,5 @@
 params["_selectedFactionID"];
-//This scripts grabs the selected faction in the faction list and adds the available supplies of that faction to the 2nd listbox.
+//This scripts grabs the selected faction in the faction list and adds the available vehicles of that faction to the 2nd listbox.
 
 _factionStuff = [_selectedFactionID] call compile preprocessfile "scripts\Factions\selectFaction.sqf";
 _availableVehicles = _factionStuff select 2;

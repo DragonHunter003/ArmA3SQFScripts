@@ -31,4 +31,7 @@ if (count _nearVehicles > 0) then {
 	clearWeaponCargoGlobal _vehicle;
 	clearBackpackCargoGlobal _vehicle;
 	
+	if (unitIsUAV _vehicle) then {
+		createVehicleCrew _vehicle;
+	}
 }
