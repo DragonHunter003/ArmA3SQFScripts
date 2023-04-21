@@ -1,0 +1,5 @@
+_availableFactions = [
+	
+];
+
+_availableFactions

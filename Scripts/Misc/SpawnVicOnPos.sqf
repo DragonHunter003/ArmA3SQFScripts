@@ -1,0 +1,1 @@
+createVehicle ["rhs_ka60_c",getPos player];

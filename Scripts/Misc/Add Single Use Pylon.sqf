@@ -1,0 +1,1 @@
+cursorObject addAction ["Test42",{[(_this select 0)] call zen_pylons_fnc_configure; (_this select 0) removeAction (_this select 2);},nil,1.5,true,true,"","driver vehicle _target == _this"];
