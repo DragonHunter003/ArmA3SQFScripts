@@ -1,0 +1,59 @@
+Murrica
+	Base Uniform:
+		"U_LIB_US_Rangers_Uniform"
+
+	Medical Uniform:
+		"U_LIB_US_Rangers_Med"
+
+	Base Vest:
+		"V_LIB_US_Vest_Garand"
+
+	Medical Vest:
+		"V_LIB_US_Vest_Medic"
+	
+	Squad Lead, PL, Logi Vest:
+		"V_LIB_US_Vest_Thompson_nco"
+
+	LMG Vest:
+		"V_LIB_US_Vest_Bar"
+
+	Base Backpack:
+		"B_LIB_US_Backpack_Mk2"
+	
+	Base Helmet:
+		"H_LIB_US_Rangers_Helmet"
+
+	Medical Helmet:
+		"H_LIB_US_Helmet_Med_ns"
+
+	Squad Leader Helmet:
+		"H_LIB_US_Rangers_Helmet_NCO"
+
+	PL/Logi Helmet:
+		"H_LIB_US_Rangers_Helmet_First_lieutenant"
+
+	Default Weapon:
+		"fow_w_m1_garand"
+
+	LMG:
+		"GLIB_USA_M1918A2_BAR"
+
+	Grenadier:
+		"fow_1Rnd_m9a1"	//Riflegrenade
+
+	MAT:
+		"LIB_M1A1_Bazooka"
+			"LIB_1Rnd_60mm_M6"
+	
+	Flamethrower:
+		"LIB_M2_Flamethrower" //Weapon
+		"B_LIB_US_M2Flamethrower" //Backpack
+		"LIB_M2_Flamethrower_Mag" //Magazine
+
+	Binoculars:
+		"Binocular"
+
+	Map:
+		"ItemMap"
+
+	
