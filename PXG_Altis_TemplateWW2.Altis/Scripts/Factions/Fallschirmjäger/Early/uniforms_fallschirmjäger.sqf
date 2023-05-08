@@ -12,6 +12,7 @@ switch (_loadout) do {
 	case "sqd_med": { player forceAddUniform "U_LIB_GER_Soldier_camo_FSJ293v00pSchSantK98"};
 	case "ar_c";
 	case "ar_ld": { player forceAddUniform "fow_u_ger_tankcrew_01_2nd_leutnant"}; 
+	case "pil": { player forceAddUniform "U_LIB_GER_LW_pilot"};
 };
 	
 // add helmet
@@ -21,6 +22,7 @@ switch (_loadout) do {
 	case "sqd_med": { player addHeadgear "H_LIB_GER_Helmet_FSJW01CR1x3x5"};
 	case "ar_ld": { player addHeadgear "H_LIB_GER_TankOfficerCap"};
 	case "ar_c": { player addHeadgear "H_LIB_GER_TankPrivateCap"};
+	case "pil": { player addHeadgear "H_LIB_GER_LW_PilotHelmet"};
 };
 
 // add vest
@@ -38,6 +40,7 @@ switch (_loadout) do {
 	case "sqd_gre": { player addVest "V_LIB_GER_PioneerVest"};
 	case "ar_c";
 	case "ar_ld": { player addVest "V_LIB_GER_TankPrivateBelt_0"};
+	case "pil": { player addVest "V_LIB_GER_PrivateBelt_0_Luft"};
 };
 
 // add backpack 
@@ -47,4 +50,5 @@ switch (_loadout) do {
 	case "sqd_aar": { player addBackpack "fow_b_ammoboxes_mg34_42"};
 	case "sqd_eng": { player addBackpack "B_LIB_GER_SapperBackpack_empty"};
 	case "sup_mat_g": { player addBackpack "B_LIB_GER_Panzer_Empty"};
+	case "pil": { player addBackpack "fow_b_parachute"};
 };
